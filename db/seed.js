@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const db = require("../models");
 
 const parents = [
