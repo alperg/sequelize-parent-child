@@ -29,7 +29,7 @@ Associations where the foreign key exists on the source model.
 ![models](img/belongs-to.png)
 
 ### Joins
-Since the 2 tables have one-to-many assoication, we can easily get the associated data by just adding `include: [<models>]` as an option in our queries.
+Since the 2 tables have one-to-many association, we can easily get the associated data by just adding `include: [<models>]` as an option in our queries.
 
 Add the "include" option to the queries below. This is a feature called "eager loading". We want to "include" the `Child` model when retrieving `Parent` data:
 
